@@ -6,7 +6,7 @@
 #   movies = Movie.create([{ name: 'Star Wars' }, { name: 'Lord of the Rings' }])
 #   Character.create(name: 'Luke', movie: movies.first)
 
-    Vendor.create([{name: "General Assembly", currency: "USD" }])
+    Vendors = Vendor.create([{name: "General Assembly", currency: "USD" }])
     PurchaseOrder.create( VendorName: "General Assembly",
     VendorCurrency: "USD", Quantity: 1, Amount: 2, Total: 2, ExpenseType: "Grants Expense", vendor_id: 9)
 
